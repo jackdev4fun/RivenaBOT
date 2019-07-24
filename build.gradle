@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'Rivena'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+def jdaVersion = '3.8.3_464'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "net.dv8tion:JDA:$jdaVersion"
+}
+compileJava.options.encoding = 'UTF-8'
