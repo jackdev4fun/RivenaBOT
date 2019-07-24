@@ -1,4 +1,4 @@
 public class Token {
 
-public static final String TOKEN = "NTkxMDY5MDkzMjk0MjQzODQx.XTcPAw.VzZagoXeQ2QSCyqiCA6brhBLDQU";
+public static final String TOKEN = "NTkxMDY5MDkz35x7dTcPAw.VxozZagoXeQ2QSCyqiCA6brhBLDQU";
 }
